@@ -1,0 +1,86 @@
+{{-- home.blade.php --}}
+@extends('layouts.main')
+
+@section('content')
+	
+	<div class="container">
+		<h1>North Shore Rubgy Club - NSRC</h1>
+		<a href="index.php"><i class="fa fa-arrow-left"></i>Back</a>
+		
+		<div class="contact-box">
+			<div class="flex flex-j-between">
+				<h3>Contact Info</h2>
+				<button class="edit-contact"><i class="fa fa-pencil"></i></button>
+			</div>
+
+			<table class="teams-table">
+	        	<tr>
+		        	<th width="400">Name</th>
+		        	<th width="200">Position</th>
+		        	<th width="150">Phone</th>
+		        	<th width="150">Email</th>
+		        </tr>
+		        <tr>
+		        	<td width="400">John Smith</td>
+		        	<td width="200">Coach</td>
+		        	<td width="150">09 435 1234</td>
+		        	<td width="150">john.smith@gmail.com</td>
+		        </tr>
+		    </table>
+		</div>
+		<section>
+		    <h3>Total Vouchers Given</h2>
+		    <table class="teams-table">
+	        	<tr>
+		        	<th width="400">Vouchers</th>
+		        	<th width="200">Amount</th>
+		        	<th width="150">Redeed</th>
+		        	<th width="150">% Return</th>
+		        </tr>
+		        <tr>
+		        	<td width="400">POD Kids</td>
+		        	<td width="200">45</td>
+		        	<td width="150">2</td>
+		        	<td width="150">1%</td>
+		        </tr>
+		        <tr>
+		        	<td width="400">POD Adults</td>
+		        	<td width="200">120</td>
+		        	<td width="150">30</td>
+		        	<td width="150">40%</td>
+		        </tr>
+		        <tr>
+		        	<td width="400">T-Shirts</td>
+		        	<td width="200">5</td>
+		        	<td width="150">N/A</td>
+		        	<td width="150">N/A</td>
+		        </tr>
+		    </table>
+		</section>
+
+		<section>
+		    <h3>All Vouchers Given</h2>
+		    <table class="voucher-table">
+	        	<tr>
+		        	<th width="200">Date</th>
+		        	<th width="300">Voucher</th>
+		        	<th width="150">Amount</th>
+		        </tr>
+		        <tr>
+		        	<td width="200">30 Jan 2015</td>
+		        	<td width="300">POD Kids</td>
+		        	<td width="150">45</td>
+		        </tr>
+		        <tr>
+		        	<td width="200">23 Dec 2014</td>
+		        	<td width="300">POD Adults</td>
+		        	<td width="150">45</td>
+		        </tr>
+		        <tr>
+		        	<td width="200">2 Dec 2014</td>
+		        	<td width="300">POD Kids</td>
+		        	<td width="150">45</td>
+		        </tr>
+		    </table>
+		</section>
+	</div>
