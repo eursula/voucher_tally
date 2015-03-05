@@ -133,10 +133,5 @@
 	        </table>
       	</div>
     </div>
-    <footer>
-    	<div class="container flex flex-column flex-j-center">
-	    	<p>&copy; Lone Star Takapuna 2014 | All rights reserved</p>
-    	</div>
-    </footer>	
 
 @stop
